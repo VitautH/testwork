@@ -1,0 +1,234 @@
+.text-center {
+    text-align: center;
+}
+header {
+top: 0;
+    width: 100%;
+    height: 80px;
+z-index: 100;
+background: #037a94;
+box-shadow: none;
+-webkit-transition: box-shadow 0.15s ease-out;
+-o-transition: box-shadow 0.15s ease-out;
+transition: box-shadow 0.15s ease-out;
+}
+
+
+
+header .slogon {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 16px;
+}
+
+header nav ul {
+    list-style: none;
+}
+header nav ul > li {
+    padding-top: 21px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+  margin-right: 15px;
+ margin-left: 15px;
+
+}
+
+
+
+header nav ul > li > a, header nav ul > li > a:hover  {
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    height: 30px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+header  input.search {
+    margin-top: 20px;
+    border: 1px solid #00A7CF;
+    color: #00A7CF;
+    padding: 0 15px;
+    height: 32px;
+    line-height: 31px;
+    border-radius: 16px;
+}
+
+article h1{
+    font-size: 30px;
+    line-height: 35px;
+   font-weight: 400;
+    color: #22BBB3;
+
+}
+
+.intro {
+
+    font-size: 20px;
+    line-height: 26px;
+    color: #004959;
+}
+ ul.form {
+     border: 1px solid #ddd;
+     padding: 10px;
+ }
+
+ ul.form h3{
+     text-align: center;
+     font-size: 28px;
+     line-height: 35px;
+
+     color: #22BBB3;;
+ }
+
+.form {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+
+.form .field-divided{
+    width: 49%;
+}
+
+.form .field-long{
+    width: 100%;
+}
+
+
+.form .required{
+    color:red;
+}
+
+article .form input {
+    display: block;
+
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #676767;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+}
+
+article .form textarea{
+
+    width: 342px;
+    height: 100px;
+    background-color: #ffffff;
+    border: solid 1px #cdcdcd;
+
+}
+
+article .form .fileupload{
+    border: none;
+}
+
+article .form .g-recaptcha{
+    margin-top: 10px;
+}
+
+article .form input.send_message   {
+    width: 150px;
+    height: 40px;
+    color: #22BBB3;
+    border: 1px solid #22BBB3;
+    margin-top: 10px;
+}
+article section .item {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 14px 0 40px 0;
+    box-shadow: 4px 4px 12px 0 rgba(173, 179, 179, 0.5);
+    position: relative;
+    border: 1px solid #d7dada;
+
+}
+article section .item  .name{
+    font-size: 16px;
+    line-height: 1;
+    color: #00A7CF;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+article section .item img.avatar{
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+article section .item .message{
+    line-height: 1.462;
+    padding-top: 3px;
+    word-wrap: break-word;
+    font-size: 14px;
+    text-align: justify;
+}
+article section .item .img_attach  {
+    position: relative;
+    display: block;
+    float: left;
+
+}
+article section .item .img_attach img{
+    width: 322px;
+
+}
+
+article nav ul li.pagination-active > a, article nav ul li.pagination-active > a:hover{
+    color:red;
+}
+ footer{
+     padding-top: 100px;
+     background: #003d4d;
+ }
+
+footer .bottom-bar {
+    text-align: right;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+footer .bottom-bar span {
+    color: white;
+}
+footer .bottom-bar li,footer .bottom-bar li > a  {
+    color: lightgrey;
+}
+
+footer .bottom-bar ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+ footer .bottom-bar li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
